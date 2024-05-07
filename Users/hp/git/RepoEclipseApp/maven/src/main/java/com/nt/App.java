@@ -11,4 +11,8 @@ public class App
         System.out.println( "Hello World!" );
         System.out.println("hello ram");
     }
+    public String reverse(String name)
+    {
+    	StringBuffer sb =new StringBuffer(name);
+    	return sb.reverse().toString();   }
 }
